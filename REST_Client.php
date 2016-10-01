@@ -9,13 +9,13 @@ if (isset($_GET["action"]) && isset($_GET["id"]) && $_GET["action"] == "get_app"
   ?>
     <table>
       <tr>
-        <td>App Name: </td><td> <?php echo $app_info["os_release_name"] ?></td>
+        <td>OpenStack Release Name: </td><td> <?php echo $app_info["os_release_name"] ?></td>
       </tr>
       <tr>
         <td>Price: </td><td> <?php echo $app_info["app_price"] ?></td>
       </tr>
       <tr>
-        <td>Version: </td><td> <?php echo $app_info["rpc_version"] ?></td>
+        <td>RPC Version: </td><td> <?php echo $app_info["rpc_version"] ?></td>
       </tr>
     </table>
     <br />

@@ -1,0 +1,5 @@
+if curl -s --head  --request GET http://172.23.112.90/REST_Client.php | grep "200 OK" > /dev/null
+   echo "My API is UP"
+else
+   echo "My API is DOWN"
+fi

@@ -27,6 +27,9 @@ function get_app_by_id($id)
     case 6:
       $app_info = array("os_release_name" => "Newton", "app_price" => "Free", "rpc_version" => "14.0");
       break;
+    case 7:
+      $app_info = array("os_release_name" => "Ocata", "app_price" => "Free", "rpc_version" => "15.0");
+      break;
   }
 
   return $app_info;
@@ -36,7 +39,7 @@ function get_app_list()
 {
   //normally this info would be pulled from a database.
   //build JSON array
-  $app_list = array(array("id" => 1, "name" => "Icehouse"), array("id" => 2, "name" => "Juno"), array("id" => 3, "name" => "Kilo"), array("id" => 4, "name" => "Liberty"), array("id" => 5, "name" => "Mitaka"), array("id" => 6, "name" => "Newton")); 
+  $app_list = array(array("id" => 1, "name" => "Icehouse"), array("id" => 2, "name" => "Juno"), array("id" => 3, "name" => "Kilo"), array("id" => 4, "name" => "Liberty"), array("id" => 5, "name" => "Mitaka"), array("id" => 6, "name" => "Newton"), array("id" => 6, "name" => "Ocata")); 
 
   return $app_list;
 }

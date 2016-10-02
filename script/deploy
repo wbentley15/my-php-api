@@ -2,7 +2,7 @@
  
 ssh ubuntu@172.23.112.90 <<EOF
   sudo su
-  cd ~/my-php-api
+  cd /ubuntu/my-php-api
   git pull
   cp *.php /var/www/html
   exit

@@ -1,0 +1,7 @@
+parameters:
+  key_name: my-key
+  image: ubuntu-14.04
+  flavor: m1.small
+  private_net_id: aa8d6d1a-adfe-48a7-aae7-ffe15db0ef5b
+  private_subnet_id: fe15b855-de1c-4614-bf69-4b550e3035f6
+ 
